@@ -7,10 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1HhKx4PcjPPmwTUsQ6MDv1Zh72GuZ4zj3
 """
 
-pip install pandas numpy scikit-learn surprise
-
-pip install streamlit scikit-surprise pandas
-
 import streamlit as st
 import pandas as pd # for data manipulation, cleaning, analysis
 from surprise import SVD, Dataset, Reader # surprise (simple python recommendation system engine) mainly focusing on collaborative filtering. SVD foro matrix factorization and decompose the user item rating into lower dimentional factor. Dataset for loading and structuring data in surprise's format. Reader--how to read rating data (eg: scale of 1 to 5 starts, or ignore certain columns)
