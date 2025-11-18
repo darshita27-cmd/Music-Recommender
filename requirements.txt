@@ -1,5 +1,0 @@
-streamlit
-pandas
-numpy
-scikit-learn
-git+https://github.com/NicolasHug/Surprise.git
